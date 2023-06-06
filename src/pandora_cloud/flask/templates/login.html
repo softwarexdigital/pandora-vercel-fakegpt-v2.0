@@ -225,7 +225,7 @@
                             <div title="OpenAI" id="custom-prompt-logo"
                                 style="width: auto !important; height: 60px !important; position: static !important; margin: auto !important; padding: 0 !important; background-color: transparent !important; background-position: center !important; background-size: contain !important; background-repeat: no-repeat !important">
                             </div>
-                            <h1 class="ca61186d8 cb87ac8dc">Welcome Back</h1>
+                            <h1 class="ca61186d8 cb87ac8dc">SoftwareDigitalGPT</h1>
                             <div class="cc6691322 ccd3868ad"></div>
                         </header>
                         
@@ -264,7 +264,7 @@
         </footer>
     </div>
     <script
-        type="text/javascript">function updateHeader(text) { const $h1 = document.querySelector('main header > h1'); if ($h1) { $h1.innerText = text } } updateHeader('Welcome Back'); window.addEventListener('load', function () { const submitBtn = document.querySelector('#submit-token'); submitBtn.addEventListener('click', function () { const accessToken = prompt('Please input access token:'); if (accessToken) { fetch('login_token', { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: 'action=token&access_token=' + encodeURIComponent(accessToken) + '&next=' + encodeURIComponent(document.getElementById('txtNext').value) }).then(response => response.json()).then(data => { if (0 === data.code) { window.location.href = data.url } else { alert(data.message) } }).catch(error => console.error(error)) } }) });</script>
+        type="text/javascript">function updateHeader(text) { const $h1 = document.querySelector('main header > h1'); if ($h1) { $h1.innerText = text } } updateHeader('SoftwareDigitalGPT'); window.addEventListener('load', function () { const submitBtn = document.querySelector('#submit-token'); submitBtn.addEventListener('click', function () { const accessToken = prompt('Please input access token:'); if (accessToken) { fetch('login_token', { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: 'action=token&access_token=' + encodeURIComponent(accessToken) + '&next=' + encodeURIComponent(document.getElementById('txtNext').value) }).then(response => response.json()).then(data => { if (0 === data.code) { window.location.href = data.url } else { alert(data.message) } }).catch(error => console.error(error)) } }) });</script>
     <script>if ('serviceWorker' in navigator) { window.addEventListener('load', function () { navigator.serviceWorker.register('/service-worker.js', { scope: '/' }).then(function (reg) { console.log('ServiceWorker registration successful with scope: ', reg.scope); }, function (e) { console.log('ServiceWorker registration failed: ', e); }); }); }</script>
 </body>
 
