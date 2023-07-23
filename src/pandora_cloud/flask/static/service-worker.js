@@ -2,9 +2,9 @@ self.addEventListener('install', event => {
     event.waitUntil(
         caches.open('pandora-cloud-cache').then(function (cache) {
             return cache.addAll([
-                '/apple-touch-icon.png',
-                '/favicon-16x16.png',
-                '/favicon-32x32.png',
+                '/sdos-touch-icon.png',
+                '/sdos-16x16.png',
+                '/sdos-32x32.png',
                 '/ulp/react-components/1.66.5/css/main.cdn.min.css',
                 '/fonts/colfax/ColfaxAIRegular.woff2',
                 '/fonts/colfax/ColfaxAIRegular.woff',
